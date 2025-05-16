@@ -59,3 +59,57 @@
   font-family: system-ui;
     font-size: xx-large;
 }
+
+
+.discover {
+  text-align: center;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 46px;
+}
+
+.social-btn {
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.social-btn:hover {
+  opacity: 0.8;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* You can use px if preferred: gap: 15px; */
+  flex-wrap: wrap;
+}
+
+.mtb-20 {
+  margin: 20px 0px; 
+}
+
+.img-1 {
+  width: 600px;
+  height: 340px;
+}
+
+.learnMoreText {
+  background-color: #A5A5A5;
+  font-family: "Roboto", Sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  color: ghostwhite;
+  text-align: center;
+}
+

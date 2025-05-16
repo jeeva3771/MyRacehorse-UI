@@ -70,6 +70,11 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
+/*header*/
+
+
+
 /* Navigation */
 #menu {
   transition: all 0.8s;
@@ -219,9 +224,7 @@ a:focus,
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
-#about {
-  padding: 100px 0;
-}
+
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
@@ -259,12 +262,36 @@ a:focus,
   margin-top: 10px;
   background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
   line-height: 24px;
-  margin: 30px 0;
+  margin: 30px 0; 
 }
+
+
+/*offering */
+
+#offering {
+  margin-top: 40px;
+} 
+
+#offering .img-1 {
+  width: 440px;
+  height: 86px;
+}
+
+#offering .img-2 {
+  width: 500px;
+  height: 370px;
+}
+
+#offering .offering-text {
+  line-height: 1.8;         /* Increase line spacing */
+  font-size: large;
+  font-weight: 300;
+  color: #2A2A29;
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -562,3 +589,9 @@ label {
     margin: 50px 0;
   }
 }
+
+.mt-13 {
+  margin-top: 13px;
+}
+
+
