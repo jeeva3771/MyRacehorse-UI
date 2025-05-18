@@ -67,34 +67,33 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-19.png",
+      "name": "RACE DAY PRIVILEGES",
+      "text": "We’ve got you covered for your trip to the track. Admission, box seats when available, exclusive and fun events to hang out with your fellow owners, your own concierge, you name it, we promise to make your day a memorable one."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-20.png",
+      "name": "ENTERTAINMENT, EDUCATION, BEHIND-THE-SCENES CONTENT",
+      "text": "Our app is your daily one-stop destination to be entertained and informed with our behind-the-scenes content of your horses. Our Racing Managers will keep you abreast of all the training action as well as provide insights from your trainer, so you always feel connected and in the know."    },
+    {
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2023/01/21-1002-UmbertoRispoli-0105-EVERS-3342x2138-c3ae6f8-scaled.jpg",
+      "name": "ACCESS TO EXCLUSIVE EVENTS AND INDUSTRY LEADERS",
+      "text": "Do you want to meet Hall of Famers, such as trainer Todd Pletcher and jockey Mike Smith? Look no further. These elite horsemen and many other racing greats are part of the MRH Team and through our paddock lotteries, you will get your introduction."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-18.png",
+      "name": "RACE WINNINGS PAID DIRECTLY TO YOUR ONLINE ACCOUNT",
+      "text": "You horse wins, so what’s next? It’s easy. Your race winnings will be paid directly to your MyRacehorse wallet. Use it to buy more shares or take some money off the table!"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-29.png",
+      "name": "RACE ENTRIES AND RECAPS IN THE PALM OF YOUR HAND",
+      "text": "Our app makes it super easy to keep track of your horses’ upcoming races and if you can’t be at the track on race day, our Racing Managers will provide you with real-time updates of your horses in the paddock, plus extensive written race recaps, so you always have the scoop!"
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-14.png",
+      "name": "VISIT TO STABLES, FARMS & TRAINING FACILITIES",
+      "text": "Want to meet your horses in person? Of course you do and that’s why we offer reoccurring visits to see your horses training at the racetrack, on the farm, and at training facilities. All of our Events are listed on our app/website."
     }
   ],
   "Testimonials": [

@@ -207,8 +207,15 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+
+
+/*history*/ 
+ #history {
+  margin-top: 30px;
+ }
 /* Features Section */
 #features {
+  margin-top: 30px;
   background: #f6f6f6;
 }
 #features i.fa {
@@ -271,7 +278,7 @@ a:focus,
 
 /*offering */
 
-#offering {
+#offering, .offering {
   margin-top: 40px;
 } 
 
@@ -285,6 +292,12 @@ a:focus,
   height: 370px;
 }
 
+#Offering .img-3 {
+  margin-top: 30px;
+  width: 640px;
+  height: 440px;
+}
+
 #offering .offering-text {
   line-height: 1.8;         /* Increase line spacing */
   font-size: large;
@@ -295,7 +308,7 @@ a:focus,
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: black;
   color: #fff;
 }
 #services .service-desc {
@@ -594,4 +607,10 @@ label {
   margin-top: 13px;
 }
 
+.pd-left {
+  padding-left: 5px;
+}
 
+.wid-100per {
+  width: 100%;
+}

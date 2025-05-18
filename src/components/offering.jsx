@@ -24,9 +24,9 @@ export const Offering = (props) => {
               </div>
               <div className="text-center">
                 <div className="btn learnMoreText mt-13">
-                    LEARN MORE
+                  LEARN MORE
                 </div>
-            </div>
+              </div>
             </ul>
           </div>
           <div className="col-lg-6 col-sm-6">
@@ -37,6 +37,78 @@ export const Offering = (props) => {
                 alt="Mini Module"
               />
             </ul>
+          </div>
+        </div>
+
+        <div className="row offering">
+          <div className="col-lg-6 col-sm-6">
+            <div id="myCarousel" className="carousel slide" data-ride="carousel">
+              <ol className="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <div className="carousel-inner">
+                <div className="item active">
+                  <img src="//cdnm.myracehorse.com/wp-content/uploads/2021/08/dummy-user-pic.jpg" alt="Los Angeles" className="wid-100per"/>
+                  <div className="carousel-caption">
+                    <h3>THANK GOD FOR MRH</h3>
+                    <p>MRH has brought me such joy! Yes it is about the Winning but it is more about belonging to a warm,
+                      loving, horse community. Impressive how much care and time they give our horses.</p>
+                    <cite>
+                      <b className="d-block bg-primary text-white fw-bold px-2 py-1 rounded">Suzan McGovern</b>
+                      <i className="pd-left">Owner</i>
+                    </cite>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <img src="//cdnm.myracehorse.com/wp-content/uploads/2021/08/dummy-user-pic.jpg" alt="Los Angeles" className="wid-100per" />
+                  <div className="carousel-caption">
+                    <h3>Dubai trip was top notch!</h3>
+                    <p> The trip for the Dubai World Cup was a great experience. The races and venue were world class, the
+                      arrangements were expertly organized,
+                      and the tours/experiences top notch. Looking forward to other trips in the future.</p>
+                    <cite>
+                      <b className="d-block bg-primary text-white fw-bold px-2 py-1 rounded">David V.</b>
+                      <i className="pd-left">Owner</i>
+                    </cite>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <img src="//cdnm.myracehorse.com/wp-content/uploads/2021/08/dummy-user-pic.jpg" alt="Los Angeles" className="wid-100per" />
+                  <div className="carousel-caption">
+                    <h3>MyRacehorse is fantastic!</h3>
+                    <p> I have been involved for at least 5 years now , and have purchased shares in many, many ,
+                      many horses! This group is the best with great people working for it and the provide so many hands on And
+                      learning opportunities for us. This is an opportunity to learn so much and
+                      actually participate in horse racing’s excitement and thrills of ownership!</p>
+                    <cite>
+                      <b className="d-block bg-primary text-white fw-bold px-2 py-1 rounded">Linda R.</b>
+                      <i className="pd-left">Owner</i>
+                    </cite>
+                  </div>
+                </div>
+
+              </div>
+
+              <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span className="glyphicon glyphicon-chevron-left"></span>
+                <span className="sr-only">Previous</span>
+              </a>
+              <a className="right carousel-control" href="#myCarousel" data-slide="next">
+                <span className="glyphicon glyphicon-chevron-right"></span>
+                <span className="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div className="col-lg-6 col-sm-6">
+            <img
+              src="//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-5.jpg"
+              className="img-fluid img-3"
+              alt="Events Module"
+            />
           </div>
         </div>
       </div>

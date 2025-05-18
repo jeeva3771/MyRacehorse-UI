@@ -29,7 +29,7 @@ export const About = (props) => {
               <video
                 className="w-100 video cursor-pointer"
                 src="https://cdnb-media.myracehorse.com/blog/video/MRH2023Commercial2_1674759600059/MP4/MRH2023Commercial2_1674759600059.mp4"
-                poster="https://cdnm.myracehorse.com/wp-content/uploads/2023/10/0000172595_1.jpg"
+                poster="//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-30.jpg"
                 controls
                 controlsList="nodownload"
                 loop

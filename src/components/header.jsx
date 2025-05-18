@@ -17,7 +17,7 @@ export const Header = (props) => {
       <div className="row">
         <div className="text-center">
           <span className="dicoverFont">DISCOVER THE</span>
-          <span className="northwellHeading"> Thrill</span>
+          <span className="northwellHeading fs-60"> Thrill</span>
         </div>
       </div>
     </header>

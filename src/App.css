@@ -52,7 +52,14 @@
 .northwellHeading {
   font-family: 'fantasy';
   color: #ff004b;
-  font-size: 60px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-40 {
+    font-size: 40px;
 }
 
 .dicoverFont {

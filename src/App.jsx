@@ -14,6 +14,7 @@ import SmoothScroll from "smooth-scroll";
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import "./App.css";
 import { Offering } from "./components/offering";
+import { History } from "./components/history";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -33,7 +34,7 @@ const App = () => {
       <Discover />
       <About data={landingPageData.About} />
       <Offering />
-
+      <History />
       <Features data={landingPageData.Features} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
