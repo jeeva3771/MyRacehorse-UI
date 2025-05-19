@@ -4,22 +4,6 @@ export const Logo = (props) => {
   return (
     <div id="logo-section" className="text-center py-4">
       <div className="container">
-        {/* First part with dynamic data if available */}
-        {props.data && (
-          <div className="row text-center mb-5">
-            <div className="portfolio-items">
-              {props.data.map((d, i) => (
-                <div
-                  key={`${d.title}-${i}`}
-                  className="col-sm-6 col-md-3 col-lg-2"
-                >
-                  {/* Your dynamic content here */}
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-        
         {/* Row with five logos, each in its own column */}
         <div className="row align-items-center mLeftTop">
           <div className="col-md-2 offset-md-1 text-center mb-3 mLeftTop">
@@ -43,7 +27,7 @@ export const Logo = (props) => {
           <div className="col-md-2 text-center mb-3">
             <img 
               src="//cdnm.myracehorse.com/wp-content/uploads/2024/05/download.png" 
-              width={170} 
+              width={180} 
               height={100}
               alt="Logo 3"
               className="img-fluid"

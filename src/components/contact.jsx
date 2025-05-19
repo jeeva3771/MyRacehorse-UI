@@ -1,26 +1,30 @@
 import React from "react";
+import { Link, useNavigate } from 'react-router-dom';
+
 
 export const Contact = (props) => {
+  const navigate = useNavigate()
+
   return (
     <div>
       <div id="contact">
         <div className="container">
           {/* Links with separator lines and left margin */}
           <div className="row mb-3">
-            <div className="col-md-12 text-center" style={{ paddingLeft: "50px" }}>
-              <span href="/privacy" className="text-white small text-decoration-none">Privacy Policy</span>
-              <span className="text-white mx-2"> | </span>
-              <span href="/terms" className="text-white small text-decoration-none">TOS</span>
-              <span className="text-white mx-2"> | </span>
-              <span href="/contact" className="text-white small text-decoration-none">Contact</span>
-              <span className="text-white mx-2"> | </span>
-              <span href="/about" className="text-white small text-decoration-none">About Us</span>
-              <span className="text-white mx-2"> | </span>
-              <span href="/faqs" className="text-white small text-decoration-none">FAQs</span>
-              <span className="text-white mx-2"> | </span>
-              <span href="/jobs" className="text-white small text-decoration-none">Jobs</span>
-              <span className="text-white mx-2"> | </span>
-              <span href="/gift-cards" className="text-white small text-decoration-none">Gift Cards</span>
+            <div className="col-md-12 text-center" style={{ paddingLeft: "50px", cursor: 'pointer'}}>
+              <span onClick={() => navigate('/privacy')}  className="text-white small text-decoration-none">Privacy Policy</span>
+              <span className="text-white me-2"> | </span>
+              <span onClick={() => navigate('/terms')} className="text-white small text-decoration-none" >TOS</span>
+              <span className="text-white me-2"> | </span>
+              <span onClick={() => navigate('/contact')} className="text-white small text-decoration-none">Contact</span>
+              <span className="text-white me-2"> | </span>
+              <span onClick={() => navigate('/about')} className="text-white small text-decoration-none">About Us</span>
+              <span className="text-white me-2"> | </span>
+              <span onClick={() => navigate('/faqs')} className="text-white small text-decoration-none">FAQs</span>
+              <span className="text-white me-2"> | </span>
+              <span onClick={() => navigate('/jobs')} className="text-white small text-decoration-none">Jobs</span>
+              <span className="text-white me-2"> | </span>
+              <span onClick={() => navigate('/gift-cards')} className="text-white small text-decoration-none">Gift Cards</span>
             </div>
           </div>
           
@@ -29,21 +33,21 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <img src="//cdnm.myracehorse.com/wp-content/themes/myracehorse/images/logo.svg" width={300}/>
+                    <img src="//cdnm.myracehorse.com/wp-content/themes/myracehorse/images/logo.svg" width={300} />
                   </li>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
+                    <a target="_blank" href={props.data ? props.data.facebook : "/"}>
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
+                    <a target="_blank" href={props.data ? props.data.twitter : "/"}>
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a target="_blank" href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
