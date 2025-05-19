@@ -30,13 +30,13 @@ export const Offering = (props) => {
             </ul>
           </div>
           <div className="col-lg-6 col-sm-6">
-            <ul>
+            <div>
               <img
                 src="//cdnm.myracehorse.com/wp-content/uploads/2025/04/174p-2-4000x2666.jpg"
                 className="img-fluid img-2"
                 alt="Mini Module"
               />
-            </ul>
+            </div>
           </div>
         </div>
 
@@ -103,7 +103,7 @@ export const Offering = (props) => {
               </a>
             </div>
           </div>
-          <div className="col-lg-6 col-sm-6">
+          <div className="col-lg-6 col-sm-8">
             <img
               src="//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-5.jpg"
               className="img-fluid img-3"

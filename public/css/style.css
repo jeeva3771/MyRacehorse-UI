@@ -216,7 +216,6 @@ a:focus,
 /* Features Section */
 #features {
   margin-top: 30px;
-  background: #f6f6f6;
 }
 #features i.fa {
   font-size: 38px;
@@ -279,7 +278,7 @@ a:focus,
 /*offering */
 
 #offering, .offering {
-  margin-top: 40px;
+  margin-top: 38px;
 } 
 
 #offering .img-1 {
@@ -294,7 +293,7 @@ a:focus,
 
 #Offering .img-3 {
   margin-top: 30px;
-  width: 640px;
+  width: 740px;
   height: 440px;
 }
 
@@ -307,7 +306,8 @@ a:focus,
 
 /* Services Section */
 #services {
-  padding: 100px 0;
+  margin-top: 20px;
+  padding: 50px 0;
   background: black;
   color: #fff;
 }
@@ -439,7 +439,7 @@ a:focus,
 }
 /* Team Section */
 #team {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #team h4 {
   margin: 5px 0;
@@ -457,8 +457,8 @@ a:focus,
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  padding: 80px 0 60px;
+  background: black;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -613,4 +613,13 @@ label {
 
 .wid-100per {
   width: 100%;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.mLeftTop {
+  margin-left: 80px;
+  margin-top: 20px;
 }

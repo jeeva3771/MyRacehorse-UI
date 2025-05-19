@@ -5,7 +5,7 @@ import { Features } from "./components/features";
 import { Discover } from "./components/Discover";
 import { About } from "./components/about";
 import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
+import { Winner } from "./components/winner";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
@@ -15,6 +15,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import "./App.css";
 import { Offering } from "./components/offering";
 import { History } from "./components/history";
+import { RaceHorse } from "./components/racehorse";
+import { Logo } from "./components/logo";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -35,12 +37,14 @@ const App = () => {
       <About data={landingPageData.About} />
       <Offering />
       <History />
-      <Features data={landingPageData.Features} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
+      <Winner />
+      <Team data={landingPageData.Team} />      
+      <Features data={landingPageData.Features} />
+      <Logo data={landingPageData.logo} />
+      {/* <Testimonials data={landingPageData.Testimonials} /> */}
       <Contact data={landingPageData.Contact} />
+      {/* <Logo data={landingPageData.logo}/> */}
     </div>
   );
 };

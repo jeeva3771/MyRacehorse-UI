@@ -20,49 +20,28 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "smallImage": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-25.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "smallImage": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-25-copy.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "smallImage": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-25-copy-2.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "smallImage": "//cdnm.myracehorse.com/wp-content/uploads/2021/08/brand-logo.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "smallImage": "//cdnm.myracehorse.com/wp-content/uploads/2018/09/tdn.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "smallImage": "//cdnm.myracehorse.com/wp-content/uploads/2024/05/download.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "smallImage": "//cdnm.myracehorse.com/wp-content/uploads/2024/05/Screenshot-2024-05-22-at-11.46.13 AM-e1716392842686.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "smallImage": "//cdnm.myracehorse.com/wp-content/uploads/2021/08/brand-logo-6.png"
     }
   ],
   "Services": [
@@ -160,24 +139,34 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-25.png",
+      "title": "UNITED STATES"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-25-copy.png",
+      "title": "AUSTRALIA"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2022/04/Layer-25-copy-2.png",
+      "title": "UK / IRELAND"
+    }
+  ],
+
+  "logo": [
+    {
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2021/08/brand-logo.png"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2018/09/tdn.png"
+    },
+    {
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2024/05/download.png"
+    },
+    {
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2024/05/Screenshot-2024-05-22-at-11.46.13 AM-e1716392842686.png"
+    },
+    {
+      "url": "//cdnm.myracehorse.com/wp-content/uploads/2021/08/brand-logo-6.png"
     }
   ]
 }

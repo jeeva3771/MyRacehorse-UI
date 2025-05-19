@@ -1,18 +1,16 @@
 import { Image } from "./image";
 import React from "react";
 
-export const Gallery = (props) => {
+export const RaceHorse = (props) => {
   return (
-    <div id="portfolio" className="text-center">
+    <div id="" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <div className="text-center">
+            <h2>MYRACEHORSE  <span className="northwellHeading fs-40">Global</span></h2>
+          </div>
         </div>
-        <div className="row">
+        <div className="row text-center">
           <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
@@ -28,9 +26,11 @@ export const Gallery = (props) => {
                   </div>
                 ))
               : "Loading..."}
+              
           </div>
         </div>
       </div>
     </div>
   );
 };
+
